@@ -1,333 +1,337 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mighty Token - The Funniest Meme Token!</title>
+    <title>ETHEREALIZE</title>
     <link
-        href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Permanent+Marker&family=Rampart+One&family=Montserrat:wght@400;700&display=swap"
-        rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Permanent+Marker&family=Rampart+One&family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
     />
     <link rel="icon" href="/images/image.jpg" type="image/jpg" />
     <style>
-        body {
-            background: radial-gradient(circle, #ff6ec4, #7873f5);
-            font-family: "Montserrat", sans-serif;
-            color: #fff;
-            text-align: center;
-            margin: 0;
-            overflow-x: hidden;
-            position: relative;
-            animation: pulseBackground 5s infinite alternate;
-        }
+      body {
+        background: radial-gradient(circle, #ff6ec4, #7873f5);
+        font-family: "Montserrat", sans-serif;
+        color: #fff;
+        text-align: center;
+        margin: 0;
+        overflow-x: hidden;
+        position: relative;
+        animation: pulseBackground 5s infinite alternate;
+      }
 
-        @keyframes pulseBackground {
-            0% {
-                box-shadow: 0 0 30px rgba(255, 110, 196, 0.7);
-            }
-            100% {
-                box-shadow: 0 0 60px rgba(120, 115, 245, 0.7);
-            }
+      @keyframes pulseBackground {
+        0% {
+          box-shadow: 0 0 30px rgba(255, 110, 196, 0.7);
         }
+        100% {
+          box-shadow: 0 0 60px rgba(120, 115, 245, 0.7);
+        }
+      }
 
-        header {
-            background: rgba(255, 0, 0, 0.9);
-            padding: 40px;
-            border-bottom: 10px dotted #fffb3a;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
-        }
+      header {
+        background: rgba(255, 0, 0, 0.9);
+        padding: 40px;
+        border-bottom: 10px dotted #fffb3a;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+      }
 
-        h1 {
-            font-family: "Fredoka One", cursive; /* Changed header font */
-            font-size: 6rem;
-            letter-spacing: 6px;
-            text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
-        }
+      h1 {
+        font-family: "Fredoka One", cursive; /* Changed header font */
+        font-size: 6rem;
+        letter-spacing: 6px;
+        text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+      }
 
-        h2 {
-            font-family: "Fredoka One", sans-serif; /* Changed to maintain consistency */
-            font-size: 2.5rem;
-            margin-top: 0;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-            color: #fffb3a;
-        }
+      h2 {
+        font-family: "Fredoka One", sans-serif; /* Changed to maintain consistency */
+        font-size: 2.5rem;
+        margin-top: 0;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        color: #fffb3a;
+      }
 
-        .container {
-            max-width: 1200px;
-            margin: auto;
-            padding: 15px;
-            position: relative;
-        }
+      .container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 15px;
+        position: relative;
+      }
 
-        .content-wrapper {
-            display: flex;
-            align-items: flex-start;
-            justify-content: center;
-            flex-wrap: wrap;
-            margin: 20px 0;
-        }
+      .content-wrapper {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 20px 0;
+      }
 
-        .meme-image {
-            width: 100%;
-            max-width: 450px;
-            margin: 20px;
-            border: 10px dashed #33ff88;
-            border-radius: 20px;
-            transform: rotate(-2deg);
-            transition: transform 0.3s;
-            animation: imageBounce 1s infinite alternate;
-        }
+      .meme-image {
+        width: 100%;
+        max-width: 450px;
+        margin: 20px;
+        border: 10px dashed #33ff88;
+        border-radius: 20px;
+        transform: rotate(-2deg);
+        transition: transform 0.3s;
+        animation: imageBounce 1s infinite alternate;
+      }
 
-        @keyframes imageBounce {
-            0% {
-                transform: rotate(-2deg) translateX(0);
-            }
-            100% {
-                transform: rotate(2deg) translateX(5px);
-            }
+      @keyframes imageBounce {
+        0% {
+          transform: rotate(-2deg) translateX(0);
         }
+        100% {
+          transform: rotate(2deg) translateX(5px);
+        }
+      }
 
-        .humor-explanation {
-            font-size: 1.6rem;
-            margin: 20px;
-            background: rgba(255, 181, 100, 0.9);
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-            animation: rise 0.6s ease forwards;
-            opacity: 0;
-            transform: translateY(20px);
-            flex: 1;
-            min-width: 300px;
-            color: #333;
-            font-family: 'Rampart One', cursive;
-        }
+      .humor-explanation {
+        font-size: 1.6rem;
+        margin: 20px;
+        background: rgba(255, 181, 100, 0.9);
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        animation: rise 0.6s ease forwards;
+        opacity: 0;
+        transform: translateY(20px);
+        flex: 1;
+        min-width: 300px;
+        color: #333;
+        font-family: "Rampart One", cursive;
+      }
 
-        @keyframes rise {
-            0% {
-                transform: translateY(20px);
-                opacity: 0;
-            }
-            100% {
-                transform: translateY(0);
-                opacity: 1;
-            }
+      @keyframes rise {
+        0% {
+          transform: translateY(20px);
+          opacity: 0;
         }
+        100% {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
 
-        .tokenomics {
-            background: rgba(233, 196, 106, 0.8);
-            border-radius: 15px;
-            padding: 30px;
-            margin: 20px 0;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-            animation: scale 1s ease;
-            opacity: 0;
-            transform: translateY(20px);
-        }
+      .tokenomics {
+        background: rgba(233, 196, 106, 0.8);
+        border-radius: 15px;
+        padding: 30px;
+        margin: 20px 0;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        animation: scale 1s ease;
+        opacity: 0;
+        transform: translateY(20px);
+      }
 
-        @keyframes scale {
-            0% {
-                transform: scale(0.8);
-                opacity: 0;
-            }
-            100% {
-                transform: scale(1);
-                opacity: 1;
-            }
+      @keyframes scale {
+        0% {
+          transform: scale(0.8);
+          opacity: 0;
         }
+        100% {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
 
-        .tokenomics h3 {
-            color: #721c24;
-            text-transform: uppercase;
-            font-size: 3rem;
-            text-shadow: 2px 2px 4px rgba(255, 20, 20, 0.7);
-            font-family: 'Rampart One', cursive;
-        }
+      .tokenomics h3 {
+        color: #721c24;
+        text-transform: uppercase;
+        font-size: 3rem;
+        text-shadow: 2px 2px 4px rgba(255, 20, 20, 0.7);
+        font-family: "Rampart One", cursive;
+      }
 
-        .hot-buy {
-            background-color: #f5b042;
-            color: #333;
-            padding: 20px 45px;
-            border: none;
-            border-radius: 10px;
-            font-size: 2.5rem;
-            margin: 20px 0;
-            cursor: pointer;
-            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
-            transition: background 0.3s, transform 0.3s;
-            display: inline-block;
-            position: relative;
-            overflow: hidden;
-        }
+      .hot-buy {
+        background-color: #f5b042;
+        color: #333;
+        padding: 20px 45px;
+        border: none;
+        border-radius: 10px;
+        font-size: 2.5rem;
+        margin: 20px 0;
+        cursor: pointer;
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+        transition: background 0.3s, transform 0.3s;
+        display: inline-block;
+        position: relative;
+        overflow: hidden;
+      }
 
-        .hot-buy:before {
-            content: '';
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            width: 300%;
-            height: 300%;
-            background: rgba(255, 50, 50, 0.5);
-            border-radius: 50%;
-            transition: transform 0.4s ease;
-            transform: translate(-50%, -50%) scale(0);
-            z-index: 0;
-        }
+      .hot-buy:before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 300%;
+        height: 300%;
+        background: rgba(255, 50, 50, 0.5);
+        border-radius: 50%;
+        transition: transform 0.4s ease;
+        transform: translate(-50%, -50%) scale(0);
+        z-index: 0;
+      }
 
-        .hot-buy:hover:before {
-            transform: translate(-50%, -50%) scale(1);
-        }
+      .hot-buy:hover:before {
+        transform: translate(-50%, -50%) scale(1);
+      }
 
-        .hot-buy:hover {
-            color: #fff;
-            transform: scale(1.1);
-        }
+      .hot-buy:hover {
+        color: #fff;
+        transform: scale(1.1);
+      }
 
-        footer {
-            background: rgba(0, 0, 0, 0.8);
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-            box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.5);
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
+      footer {
+        background: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.5);
+        position: relative;
+        bottom: 0;
+        width: 100%;
+      }
 
-        .social-button {
-            background-color: #33ff88;
-            border: none;
-            border-radius: 50px;
-            cursor: pointer;
-            color: #333;
-            font-size: 1.8rem;
-            padding: 15px 25px;
-            margin: 10px;
-            text-decoration: none;
-            transition: background 0.3s, transform 0.3s;
-            opacity: 0;
-            transform: translateY(20px);
-        }
+      .social-button {
+        background-color: #33ff88;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        color: #333;
+        font-size: 1.8rem;
+        padding: 15px 25px;
+        margin: 10px;
+        text-decoration: none;
+        transition: background 0.3s, transform 0.3s;
+        opacity: 0;
+        transform: translateY(20px);
+      }
 
-        .social-button:hover {
-            background-color: #1cb3a1;
-            transform: scale(1.1);
-        }
+      .social-button:hover {
+        background-color: #1cb3a1;
+        transform: scale(1.1);
+      }
 
-        .flex-buttons {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 5px;
-        }
+      .flex-buttons {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 5px;
+      }
 
-        .animate {
-            opacity: 1;
-            transform: translateY(0);
-            transition: opacity 0.6s ease, transform 0.6s ease;
-        }
+      .animate {
+        opacity: 1;
+        transform: translateY(0);
+        transition: opacity 0.6s ease, transform 0.6s ease;
+      }
 
-        .eyecatcher {
-            font-size: 2rem;
-            text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.2);
-            animation: glow 1.5s infinite alternate;
-            font-family: "Fredoka One", cursive;
-        }
+      .eyecatcher {
+        font-size: 2rem;
+        text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.2);
+        animation: glow 1.5s infinite alternate;
+        font-family: "Fredoka One", cursive;
+      }
 
-        @keyframes glow {
-            0% {
-                text-shadow: 0 0 10px rgba(255, 50, 50, 0.7);
-            }
-            100% {
-                text-shadow: 0 0 20px rgba(255, 50, 50, 1);
-            }
+      @keyframes glow {
+        0% {
+          text-shadow: 0 0 10px rgba(255, 50, 50, 0.7);
         }
+        100% {
+          text-shadow: 0 0 20px rgba(255, 50, 50, 1);
+        }
+      }
 
-        .symbol {
-            font-size: 2rem; 
-            color: #ffd700; 
-            margin: 10px; 
-        }
+      .symbol {
+        font-size: 2rem;
+        color: #ffd700;
+        margin: 10px;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1>Mighty Token on the Ether! 💰</h1>
-        <h2>Ticker: $Mighty 🚀</h2>
+      <h1>ETHEREALIZE 💰</h1>
+      <h2>Ticker: $ETHEREALIZE 🚀</h2>
     </header>
 
     <div class="container">
-        <div class="content-wrapper">
-            <img src="/images/image.jpg" class="meme-image" alt="Meme Example 3" />
+      <div class="content-wrapper">
+        <img src="/images/image.jpg" class="meme-image" alt="Meme Example 3" />
+      </div>
 
-            <div class="humor-explanation">
-                <h3>🔥 Mighty Token 🔥</h3>
-                <p>
-                    Welcome to Mighty Token, the meme token that’s so awesome it’ll make your head spin! Here, laughter and profit are the names of the game! 
-                    Dive into a world where we take ridiculousness to new heights and turn your memes into gains! 
-                    Get ready for the wildest ride of your life, filled with crazy jokes and legendary memes that will slap you into happiness! 
-                    If you can meme it, we can dream it! Join us for laughter, chaos, and maybe some serious digital riches! 🤣🚀
-                </p>
-            </div>
-        </div>
+      <div>
+        <a
+          class="hot-buy"
+          href="https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x664da71cb56bbb4cb635caff9a3d7db77043ad11"
+        >
+          🔥 Buy Now! 🔥
+        </a>
+      </div>
 
-        <div>
-            <a
-              class="hot-buy"
-              href="https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0xComingSoon"
-            >
-              🔥 Buy Now! 🔥
-            </a>
-        </div>
-
-        <div class="tokenomics">
-            <h3>Tokenomics 💰</h3>
-            <p style="font-size: 1.8rem"><strong>Total Supply:</strong> 100,000,000 $Mighty</p>
-            <p style="font-size: 1.8rem"><strong>Tax:</strong> 0% Buy/Sell Tax</p>
-            <p style="font-size: 1.8rem"><strong>LP Burned:</strong> 100%</p>
-        </div>
+      <div class="tokenomics">
+        <h3>Tokenomics 💰</h3>
+        <p style="font-size: 1.8rem">
+          <strong>Total Supply:</strong> 100,000,000 $Mighty
+        </p>
+        <p style="font-size: 1.8rem"><strong>Tax:</strong> 0% Buy/Sell Tax</p>
+        <p style="font-size: 1.8rem"><strong>LP Burned:</strong> 100%</p>
+      </div>
     </div>
 
     <footer>
-        <div class="eyecatcher">
-            <h3>🔥 Join Community 🔥</h3>
-            <span class="symbol">🎉</span>
-            <span class="symbol">💻</span>
-            <span class="symbol">💸</span>
-        </div>
-        <div class="flex-buttons">
-            <a
-              class="social-button"
-              href="https://www.dextools.io/app/en/ether/pair-explorer/0xComingSoon"
-            >Dextools</a>
-            <a
-              class="social-button"
-              href="https://dexscreener.com/ethereum/0xComingSoon"
-            >Dexscreener</a>
-        </div>
-        <p style="font-size: 1.4rem; color: #fff; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);">
-            💥 &copy; 2025 Mighty Token! The wildest ride in crypto! Join or cry in the corner! 💥
-        </p>
+      <div class="eyecatcher">
+        <h3>🔥 Join Community 🔥</h3>
+        <span class="symbol">🎉</span>
+        <span class="symbol">💻</span>
+        <span class="symbol">💸</span>
+      </div>
+      <div class="flex-buttons">
+        <a
+          class="social-button"
+          href="https://x.com/ethereum/status/1882215196330168363"
+          >Twitter</a
+        >
+        <a class="social-button" href="https://t.me/etherealize_eth"
+          >Telegram</a
+        >
+        <a
+          class="social-button"
+          href="https://www.dextools.io/app/en/ether/pair-explorer/0x7dc5abd8e7d60a19f8b7a94699695fafbf63418d?t=1737593487799"
+          >Dextools</a
+        >
+      </div>
+      <p
+        style="
+          font-size: 1.4rem;
+          color: #fff;
+          text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+        "
+      >
+        💥 &copy; 2025 ETHEREALIZE Token! The wildest ride in crypto! Join or cry in
+        the corner! 💥
+      </p>
     </footer>
 
     <script>
-        const elements = document.querySelectorAll(
-            ".humor-explanation, .tokenomics, .social-button, .hot-buy"
-        );
+      const elements = document.querySelectorAll(
+        ".humor-explanation, .tokenomics, .social-button, .hot-buy"
+      );
 
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach((entry) => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add("animate");
-                    observer.unobserve(entry.target);
-                }
-            });
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("animate");
+            observer.unobserve(entry.target);
+          }
         });
+      });
 
-        elements.forEach((element) => {
-            observer.observe(element);
-        });
+      elements.forEach((element) => {
+        observer.observe(element);
+      });
     </script>
-</body>
+  </body>
 </html>
